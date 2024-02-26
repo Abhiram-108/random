@@ -1,0 +1,146 @@
+.gabriela-regular {
+    font-family: "Gabriela", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .container{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+  }
+.div1{
+    color:black;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gabriela", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+    margin-top:50px;
+}
+.div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap:40px;
+
+    
+}
+.div3,.div4{
+    gap:25px;
+}
+
+.img{
+    width: 100px;
+    display:flex;
+    align-items: center;
+}
+.div32{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Gabriela", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.div3,.div4{
+    display: flex;
+    flex-direction: column;
+
+  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width:340px;
+}
+.div33{
+    font-size: 25px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:rgb(91, 37, 218);
+}
+.div4{ 
+    border-left: 2px solid lightgray;
+    padding:50px;
+}
+.pattern{
+    position:fixed;
+    left:-5%;
+    top:0%;
+    height: 25%;
+    width: 20%;
+    overflow: hidden;
+}
+.pattern2{
+    position:fixed;
+    right:-5%;
+    bottom: 0;
+    height: 25%;
+    width: 20%;
+    rotate: 180deg;
+    overflow: hidden;
+}
+.img{
+    box-shadow: inset 0px 0px 1px 0px rgb(19, 13, 13);
+}
+@media  only screen and (max-width: 768px) {
+   .div2{
+    display:flex;
+    flex-direction: column;
+}
+.div1{
+    font-size: 35px;
+    
+}
+.div4{
+    border-left: none;
+    border-top: 2px solid lightgray;
+}
+.div32{
+    display:flex;
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.div33{
+    display:flex;
+    text-align: center;
+    font-size: 18px;
+    font-family: poppins;
+}
+.img{
+    width:75px;
+}
+.pattern1,.pattern{
+    overflow:hidden;
+    width:50px;
+    position:fixed;
+}
+.pattern1{
+    bottom: 0px;
+    overflow: hidden;
+    right:0px;
+
+}
+
+
+
+
+
+} 
+
+
+
+
+
